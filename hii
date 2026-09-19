@@ -1,0 +1,32 @@
+
+:root {
+	color-scheme: dark;
+	font-family: Inter, system-ui, sans-serif;
+	background: #0f172a;
+	color: #e2e8f0;
+}
+
+body {
+	min-height: 100vh;
+	margin: 0;
+	display: grid;
+	place-items: center;
+	background: radial-gradient(circle at top, #312e81, #0f172a 60%);
+}
+
+button {
+	padding: 0.75rem 1.25rem;
+	border: 0;
+	border-radius: 999px;
+	background: linear-gradient(135deg, #22d3ee, #8b5cf6);
+	color: white;
+	font: inherit;
+	cursor: pointer;
+	box-shadow: 0 10px 30px #22d3ee44;
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 14px 36px #8b5cf666;
+}
